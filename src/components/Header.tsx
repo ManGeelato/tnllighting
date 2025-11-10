@@ -63,11 +63,11 @@ function Header({ activeSection }: HeaderProps) {
           </nav>
 
           <button
-            className="md:hidden text-white"
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-          >
-            {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
+  className="md:hidden text-white mr-9"
+  onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+>
+  {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+</button>
         </div>
       </div>
 
