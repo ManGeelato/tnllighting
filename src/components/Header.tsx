@@ -29,6 +29,7 @@ function Header({ activeSection }: HeaderProps) {
     { id: 'home', label: 'Home' },
     { id: 'about', label: 'About' },
     { id: 'categories', label: 'Categories' },
+     { id: 'gallery', label: 'Gallery' },
     { id: 'contact', label: 'Contact' },
   ];
 

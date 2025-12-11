@@ -57,7 +57,6 @@ export const categories = [
       { id: 'chandeliers', name: 'Chandeliers', image: 'https://images.pexels.com/photos/1654459/pexels-photo-1654459.jpeg?auto=compress&cs=tinysrgb&w=600', description: 'Elegant chandelier designs' },
     ],
   },
-
   {
     id: 'leds',
     title: 'LEDs',
@@ -81,7 +80,6 @@ export const categories = [
       { id: 'strips-5', name: 'Strips', image: '/Screenshot_20251113-130639.jpg', description: 'Flexible LED strip lights' },
     ],
   },
-
   {
     id: 'emergency',
     title: 'Emergency Lights',

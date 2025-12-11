@@ -5,6 +5,7 @@ import About from './components/About';
 import Categories from './components/Categories';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Gallery from './components/Gallery';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -39,6 +40,7 @@ function App() {
         <Hero />
         <About />
         <Categories />
+        <Gallery/>
         <Contact />
       </main>
       <Footer />
