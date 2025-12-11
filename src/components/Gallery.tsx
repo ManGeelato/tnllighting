@@ -6,16 +6,29 @@ const Gallery = () => {
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
 
   const galleryImages = [
-    { url: "/WhatsApp Image 2025-12-1sd1 at 18.02.36.jpeg", title: "TNL Lighting Excellence", description: "Business leaders connecting and sharing insights" },
-    { url: "WhatsApp Image 2025-12-11 at 1iyf8.02.35.jpeg", title: "TNL Lighting Excellence", description: "Workshops that transform careers" },
-    { url: "WhatsApp Image 2025-12-11 at 15.21.14.jpeg", title: "TNL Lighting Excellence", description: "Building relationships that last" },
-    { url: "WhatsApp Image 2025-12-11 at 15.21.15.jpeg", title: "TNL Lighting Excellence", description: "Finding new paths" },
-    { url: "WhatsApp Image 2025-12-11 at 15.26.15.jpeg", title: "TNL Lighting Excellence", description: "Working together for impact" },
-    { url: "WhatsApp Image 2025-12-11 at 18uy.02.35.jpeg", title: "TNL Lighting Excellence", description: "Leaders shaping tomorrow" },
-    { url: "WhatsApp Image 2025-12-11 at 1890.02.35.jpeg", title: "TNL Lighting Excellence", description: "Marking special achievements" },
-    { url: "WhatsApp Image 2025-12-11 at 18.02.34.jpeg", title: "TNL Lighting Excellence", description: "Marking special achievements" },
-    { url: "WhatsApp Image 2025-12-11 at 18.02.35.jpeg", title: "TNL Lighting Excellence", description: "Marking special achievements" },
-   
+    { url: "/WhatsApp Image 2025-12-1sd1 at 18.02.36.jpeg", title: "TNL Lighting Excellence", description: "Illumination At Its Best!" },
+     { url: "WhatsApp Image 2025-12-11 at 18.40.36.jpeg", title: "TNL Lighting Excellence", description: "Illumination At Its Best!" },
+    { url: "WhatsApp Image 2025-12-11 at 18.40.36 (1).jpeg", title: "TNL Lighting Excellence", description: "Illumination At Its Best!" },
+    { url: "WhatsApp Image 2025-12-11 at 18.40.36.jpeg", title: "TNL Lighting Excellence", description: "Illumination At Its Best!" },
+    { url: "WhatsApp Image 2025-12-11 at 18.40.32.jpeg", title: "TNL Lighting Excellence", description: "Illumination At Its Best!" },
+    { url: "WhatsApp Image 2025-12-11 at 18.40.32 (1).jpeg", title: "TNL Lighting Excellence", description: "Illumination At Its Best!" },
+    { url: "WhatsApp Image 2025-12-11 at 18.40.31.jpeg", title: "TNL Lighting Excellence", description: "Illumination At Its Best!" },
+    { url: "WhatsApp Image 2025-12-11 at 1iyf8.02.35.jpeg", title: "TNL Lighting Excellence", description: "Illumination At Its Best!" },
+    { url: "WhatsApp Image 2025-12-11 at 15.21.14.jpeg", title: "TNL Lighting Excellence", description: "Illumination At Its Best!" },
+    { url: "WhatsApp Image 2025-12-11 at 15.21.15.jpeg", title: "TNL Lighting Excellence", description: "Illumination At Its Best!" },
+    { url: "WhatsApp Image 2025-12-11 at 15.26.15.jpeg", title: "TNL Lighting Excellence", description: "Illumination At Its Best!" }, 
+    { url: "WhatsApp Image 2025-12-11 at 18uy.02.35.jpeg", title: "TNL Lighting Excellence", description: "Illumination At Its Best!" },
+    { url: "WhatsApp Image 2025-12-11 at 1890.02.35.jpeg", title: "TNL Lighting Excellence", description: "Illumination At Its Best!" },
+    { url: "WhatsApp Image 2025-12-11 at 18.02.34.jpeg", title: "TNL Lighting Excellence", description: "Illumination At Its Best!" },
+    { url: "WhatsApp Image 2025-12-11 at 18.02.35.jpeg", title: "TNL Lighting Excellence", description: "Illumination At Its Best!" },
+    { url: "WhatsApp Image 2025-12-11 at 18.40.27.jpeg", title: "TNL Lighting Excellence", description: "Illumination At Its Best!" },
+    { url: "WhatsApp Image 2025-12-11 at 18.40.38.jpeg", title: "TNL Lighting Excellence", description: "Illumination At Its Best!" },
+    { url: "WhatsApp Image 2025-12-11 at 18.40.28 (1).jpeg", title: "TNL Lighting Excellence", description: "Illumination At Its Best!" },
+    { url: "WhatsApp Image 2025-12-11 at 18.40.28.jpeg", title: "TNL Lighting Excellence", description: "Illumination At Its Best!" },
+    { url: "WhatsApp Image 2025-12-11 at 18.40.29.jpeg", title: "TNL Lighting Excellence", description: "Illumination At Its Best!" },
+    { url: "WhatsApp Image 2025-12-11 at 18.40.30 (1).jpeg", title: "TNL Lighting Excellence", description: "Illumination At Its Best!" },
+    { url: "WhatsApp Image 2025-12-11 at 18.40.30 (2).jpeg", title: "TNL Lighting Excellence", description: "Illumination At Its Best!" },
+    { url: "WhatsApp Image 2025-12-11 at 18.40.32 (1).jpeg", title: "TNL Lighting Excellence", description: "Illumination At Its Best!" },
   ];
 
   const stats = [
@@ -75,9 +88,9 @@ const Gallery = () => {
               <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">
                 {galleryImages[currentImage].title}
               </h3>
-              {/* <p className="text-gray-200 text-lg">
+              <p className="text-gray-200 text-lg">
                 {galleryImages[currentImage].description}
-              </p> */}
+              </p>
             </div>
 
             {/* Navigation */}
